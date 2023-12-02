@@ -2,8 +2,8 @@
 functionName();
 AccioJob();
 function functionName(){
-	alert("alert("functionName");")
+	alert(arguments.callee.name);
 };
 function AccioJob(){
-	alert("alert("AccioJob");")
+	alert(arguments.callee.name);
 }
